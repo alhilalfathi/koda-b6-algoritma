@@ -9,6 +9,7 @@
 6. tampilkan nilai hasil konversi dari celcius ke fahrenheit, reamur, dan kelvin
 
 ## Flowchart
+
 ```mermaid
 flowchart TD
     mulai@{ shape: circle, label: "Mulai"}
@@ -22,4 +23,5 @@ flowchart TD
     mulai-->input
     input-->fahrenheit-->reamur-->kelvin-->output
     output-->selesai
+    
 ```
