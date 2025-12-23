@@ -2,7 +2,7 @@
 ## Algoritma Luas dan Keliling Lingkaran
 
 1. mulai
-2. tentukan nilai jari-jari lingkaran atau r
+2. tentukan nilai jari-jari lingkaran
 3. nilai phi yaitu 3,14
 4. menghitung luas dengan cara phi dikalikan dengan jari-jari kuadrat
 5. tampilkan nilai luas
