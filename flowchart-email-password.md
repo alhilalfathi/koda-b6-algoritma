@@ -3,10 +3,10 @@ flowchart TD
     mulai@{ shape: circle, label: "Mulai"}
     input@{ shape: lean-r, label: "Input: email, password"}
     if1@{ shape: diamond, label: "email||pasword!==0"}
-    flse1@{ shape: lean-r, label: "#quot;Email dan Password harus diisi#quot;"}
+    flse1@{ shape: lean-r, label: "Output: #quot;Email dan Password harus diisi#quot;"}
     true1@{ shape: diamond, label: "email == admin@mail.com, password == 1234"}
-    true2@{ shape: lean-r, label: "#quot;Login Berhasil#quot;"}
-    flse2@{ shape: lean-r, label: "#quot;Email atau Password salah#quot;"}
+    true2@{ shape: lean-r, label: "Output: #quot;Login Berhasil#quot;"}
+    flse2@{ shape: lean-r, label: "Output: #quot;Email atau Password salah#quot;"}
     selesai@{ shape: dbl-circ}
     
     mulai-->input-->if1
