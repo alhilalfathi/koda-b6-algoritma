@@ -7,16 +7,15 @@ flowchart TD
     E@{ label: "phi = 22/7"}
     F@{ label: "luas = phi * r * r"}
     G@{ label: "keliling = 2 * phi * r"}
-    H@{ shape: lean-r, label: "Output: #quot;Luas lingkaran =#quot;+luas
-    #quot;Keliling lingkaran =#quot;+keliling"}
+    H@{ shape: lean-r, label: "Output: #quot;Luas lingkaran = #quot;+luas
+    #quot;Keliling lingkaran = #quot;+keliling"}
     I@{ label: "luas = phi * r * r"}
     J@{ label: "keliling = 2 * phi * r"}
-    K@{ shape: lean-r, label: "Output: #quot;Luas lingkaran =#quot;+luas
-    #quot;Keliling lingkaran =#quot;+keliling"}
+    
     L@{ shape: dbl-circ, label: "Selesai"}
 
 A-->B-->C
-C--True-->E-->I-->J-->K-->L
+C--True-->E-->I-->J-->H
 C--False-->D-->F-->G-->H-->L
 
 ```
