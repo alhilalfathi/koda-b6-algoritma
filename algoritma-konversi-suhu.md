@@ -7,6 +7,7 @@
 4. Mengkonversi nilai celcius ke reamur dengan cara nilai celcius dikalikan dengan 4/5
 5. Mengkonversi nilai celcius ke kelvin dengan cara nilai celcius ditambahkan dengan 273
 6. tampilkan nilai hasil konversi dari celcius ke fahrenheit, reamur, dan kelvin
+7. Selesai
 
 ## Flowchart
 ```mermaid
