@@ -7,6 +7,7 @@
 4. lakukan pembayaran barang yang akan dicheckout
 5. jika pembayaran berhasil, menampilkan output pembayaran berhasil
 6. jika pembayaran gagal maka kembali ke pembayaran
+7. selesai
 
 ## Flowchart
 ```mermaid
