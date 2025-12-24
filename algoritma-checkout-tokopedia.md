@@ -22,7 +22,8 @@ flowchart TD
     login@{ shape: lean-r, label: "Input: nomorhp"}
     cariitem@{ label: "caribarang"}
     pilihitem@{ label: "pilihbarang"}
-    spek@{ shape: diamond, label: "ukuran && spesifikasi sesuai"}
+    keinginan@{ label: "keinginan = #quot;spesifikasi#quot;"}
+    spek@{ shape: diamond, label: "spek = keinginan"}
     false1@{ shape: lean-r, label: "Output: #quot;cari di toko lain#quot;"}
     true1@{ label: "klik beli langsung"}
     alamat@{ label: "sesuaikan alamat"}
@@ -35,7 +36,7 @@ flowchart TD
     selesai@{ shape: dbl-circ,}
 
 mulai-->login
-login-->cariitem-->pilihitem-->spek
+login-->cariitem-->pilihitem-->keinginan-->spek
 spek--false-->false1-->cariitem
 spek--true-->true1-->alamat-->pembayaran
 pembayaran-->gopay-->pembayaran2
