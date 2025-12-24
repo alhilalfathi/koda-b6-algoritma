@@ -20,6 +20,8 @@
 flowchart TD
     mulai@{ shape: circle,}
     login@{ shape: lean-r, label: "Input: nomorhp"}
+    verif@{ label: "nomor=#quot;verified#quot;"}
+    logincek@{ shape: diamond, label: "nomorhp == nomor"}
     cariitem@{ label: "caribarang"}
     pilihitem@{ label: "pilihbarang"}
     keinginan@{ label: "keinginan = #quot;spesifikasi#quot;"}
@@ -35,8 +37,9 @@ flowchart TD
     true2@{shape: lean-r, label: "Output:#quot;Pembayaran Berhasil#quot;"}
     selesai@{ shape: dbl-circ,}
 
-mulai-->login
-login-->cariitem-->pilihitem-->keinginan-->spek
+mulai-->login-->verif-->logincek
+logincek--true-->cariitem-->pilihitem-->keinginan-->spek
+logincek--false-->login
 spek--false-->false1-->cariitem
 spek--true-->true1-->alamat-->pembayaran
 pembayaran-->gopay-->pembayaran2
