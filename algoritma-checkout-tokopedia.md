@@ -27,11 +27,11 @@ flowchart TD
     keinginan@{ label: "keinginan = #quot;spesifikasi#quot;"}
     spek@{ shape: diamond, label: "spek = keinginan"}
     false1@{ shape: lean-r, label: "Output: #quot;cari di toko lain#quot;"}
-    true1@{ label: "klik beli langsung"}
-    alamat@{ label: "sesuaikan alamat"}
+    true1@{ label: "belilangsung"}
+    alamat@{ label: "sesuaikanalamat"}
     pembayaran@{ shape: diamond, label: "pilih pembayaran"}
     gopay@{ label: "gopay"}
-    va@{ label: "virtual account"}
+    va@{ label: "virtualAccount"}
     pembayaran2@{shape: diamond, label: "pembayaran sesuai waktu"}
     false2@{shape: lean-r, label: "Output:#quot;Pembayaran Gagal#quot;"}
     true2@{shape: lean-r, label: "Output:#quot;Pembayaran Berhasil#quot;"}
